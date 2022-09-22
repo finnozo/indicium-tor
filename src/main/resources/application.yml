@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    initialize: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        enable_lazy_load_no_trans: true
+        format_sql: true
+    show-sql: true
+  profiles:
+    active: dev

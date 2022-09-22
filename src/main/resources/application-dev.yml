@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/indicium_tor_db
+    username: postgres
+    hikari:
+      data-source-properties: stringtype=unspecified
+    tomcat:
+      connection-properties: stringtype=unspecified
+  jpa:
+    hibernate:
+      ddl-auto: update
+
